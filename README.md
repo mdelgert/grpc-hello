@@ -9,3 +9,6 @@ pip install grpcio grpcio-tools
 ```bash
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. messages.proto
 ```
+
+### Source References
+https://github.com/melledijkstra/python-grpc-chat
